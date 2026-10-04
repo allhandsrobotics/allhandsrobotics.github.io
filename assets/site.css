@@ -13,3 +13,7 @@
 .technology .research-note{color:var(--muted);margin-top:30px}
 .technology .research-note a{color:#526e32;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:650px){.unified-node{font-size:19px;padding:20px 28px}.embodiment-connectors{height:55px}.hand-labels{gap:5px;font-size:11px}.hand-labels span{padding:17px 3px;border-radius:6px}.transfer-diagram{margin-top:30px}}
+/* Text-only founder profiles */
+.person{border-top:1px solid #bccab0;padding-top:22px}
+.person h3{margin-top:0}
+@media(max-width:650px){.person{display:block}.person h3{margin-bottom:7px}.person>p:last-child{max-width:none}}
