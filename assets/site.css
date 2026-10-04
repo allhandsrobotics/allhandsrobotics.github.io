@@ -27,3 +27,11 @@
 .data-connector path{vector-effect:non-scaling-stroke}
 .data-diagram .node-row{gap:0}
 .data-diagram .node-row span{margin-inline:5px}
+/* Arrowheads use fixed CSS dimensions rather than a stretched SVG viewBox. */
+.data-connector{height:36px}
+.flow-arrows{margin:5px 0}
+.flow-arrows svg{width:16px;height:16px;stroke-width:1.5}
+.connector-tip-row{display:grid;justify-items:center;height:0;position:relative;top:-5px}
+.connector-tip-row.single{grid-template-columns:1fr}
+.connector-tip-row.triple{grid-template-columns:repeat(3,1fr)}
+.connector-tip-row span{display:block;width:6px;height:6px;border-right:1.5px solid #7c9366;border-bottom:1.5px solid #7c9366;transform:rotate(45deg)}
