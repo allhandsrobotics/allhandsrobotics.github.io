@@ -35,3 +35,6 @@
 .connector-tip-row.single{grid-template-columns:1fr}
 .connector-tip-row.triple{grid-template-columns:repeat(3,1fr)}
 .connector-tip-row span{display:block;width:6px;height:6px;border-right:1.5px solid #7c9366;border-bottom:1.5px solid #7c9366;transform:rotate(45deg)}
+/* Match the fixed-size arrowheads in the data diagram. */
+.embodiment-tip-row{display:grid;grid-template-columns:repeat(5,1fr);justify-items:center;height:0;position:relative;top:-5px}
+.embodiment-tip-row span{width:6px;height:6px;border-right:1.5px solid #9ab482;border-bottom:1.5px solid #9ab482;transform:rotate(45deg)}
