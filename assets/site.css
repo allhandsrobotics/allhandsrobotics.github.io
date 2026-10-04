@@ -18,3 +18,7 @@
 .person h3{margin-top:0}
 @media(max-width:650px){.person{display:block}.person h3{margin-bottom:7px}.person>p:last-child{max-width:none}}
 
+/* Vector arrows keep the same shape on desktop and phone browsers. */
+.flow-arrows{display:grid;grid-template-columns:1fr;justify-items:center;align-items:center;margin:10px 0;color:#7c9366}
+.flow-arrows.three{grid-template-columns:repeat(3,1fr);gap:10px}
+.flow-arrows svg{display:block;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
