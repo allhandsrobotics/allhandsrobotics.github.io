@@ -1,4 +1,4 @@
-# AllHands Robotics
+# Allhands Robotics
 
 Static startup website grounded in Unified Hand Action Space (UHAS) research. No build step or dependencies required. The original research website is preserved at `/UHAS/`.
 
@@ -20,5 +20,6 @@ The organization site will be at https://allhandsrobotics.github.io/ after a suc
 Edit startup copy and links in `index.html`, styles in `assets/site.css`, and playback behavior in `assets/site.js`. The contact address is `contact@allhandsrobotics.com`. The five sections cover company vision, the problem, technology, data and foundation models, and team/contact.
 
 The hero combines 15 seconds of the supplied Allegro and LEAP demonstrations. Founder profiles link to their personal websites; Jikai's portrait is sourced from the IRVL people page at labs.utdallas.edu/irvl/people/ and stored locally. The startup page has no analytics or external libraries. The original UHAS page retains its existing libraries and analytics.
+
 
 
