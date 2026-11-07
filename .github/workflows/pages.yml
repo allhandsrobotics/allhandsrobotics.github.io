@@ -23,7 +23,8 @@ jobs:
         run: |
           mkdir _site
           cp index.html _site/
-          cp -r assets UHAS _site/
+          mkdir _site/assets
+          cp assets/allhands-logo.png assets/stealth.css _site/assets/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
